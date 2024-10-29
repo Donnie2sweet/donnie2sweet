@@ -1,0 +1,90 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+    background-color: #552583; /* Lakers purple */
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #FDB927; /* Lakers gold */
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    
+}
+
+nav a {
+    color: #552583;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: red;
+}
+
+section#home {
+    text-align: center;
+    padding: 50px;
+}
+
+
+#home img{
+    margin-bottom: 30px;
+    }
+
+footer {
+    background-color: #333333;
+    color: #FDB927;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+}
+
+footer a{
+    padding: 0 10px;
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a i{
+    padding: 0 5px;
+}
+
+#roster{
+    display: flex;
+}
+
+#roster div p{
+    text-align: center;
+}
+
+#roster div{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    header, footer {
+        text-align: center;
+    }
+    
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
