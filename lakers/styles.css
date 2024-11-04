@@ -86,5 +86,9 @@ footer a i{
         display: block;
         margin: 10px 0;
     }
+
+    body{
+       height: 100vh !important
+    }
 }
 
